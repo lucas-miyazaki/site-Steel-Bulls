@@ -1,0 +1,40 @@
+:root {
+    --cor01: #F7AD45;
+    --cor02: #B60303;
+    --cor03: #7C1400;
+    --cor04: #9D9D9D;
+
+}
+
+body {
+    background-color: var(--cor04);
+}
+.bg-body-tertiary {
+    background-color: var(--cor03)!important;
+    
+}
+.imagem-header {
+    width: 20%;
+    border: 2px solid var(--cor04);
+    border-radius: 100%;
+}
+
+.card-img-top {
+    background-color: var(--cor03);
+}
+.card-text {
+    text-align: center;
+}
+.destaque {
+    font-weight: bold;
+}
+.cartoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2% 0px;
+
+}
+.card {
+    margin: 0px 10px;
+}
