@@ -11,12 +11,15 @@ body {
 }
 .bg-body-tertiary {
     background-color: var(--cor03)!important;
+    color: var(--cor04);
+    font-size: 20px;
     
 }
 .imagem-header {
     width: 20%;
     border: 2px solid var(--cor04);
     border-radius: 100%;
+    background-color: var(--cor03)!important;
 }
 
 .card-img-top {
@@ -33,8 +36,51 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     margin: 2% 0px;
-
+    height: 95%;
 }
 .card {
-    margin: 0px 10px;
+    margin: 0px 1%;
+}
+.linksBarra {
+    font-size: 20px;
+    color: var(--cor01);
+}
+.nav-link {
+    margin: 0px 6%;
+}
+section.FRC{
+    margin-top: 100%;
+}
+.texto1FRC {
+text-align: justify;
+width: 100%;
+}
+.titulo1FRC {
+justify-content: center;
+}
+.divFRC {
+    background-color: var(--cor02);
+    margin: 0px 1%;
+    width: 40%;
+    text-align: center;
+}
+section.inicio {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+#carouselExampleCaptions {
+    width: 50%
+}
+#accordionFlushExample {
+    margin-top: 20px;
+    width: 60%;
+}
+section.mascote {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.mascoteImg {
+    height: 50%;
 }
